@@ -1,0 +1,6 @@
+*.dll
+*.pdb
+__pycache__/
+state/
+commands/
+connection_load_error.txt

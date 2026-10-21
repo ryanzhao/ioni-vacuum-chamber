@@ -16,6 +16,8 @@ The repository contains instructions and reusable prompts; it does not itself ru
 
 ## Start here
 
+- [NX AI Interaction](docs/nx-ai-interaction/README.md): verified NXOpen connection architecture, one-time bootstrap, reusable bridge sources, troubleshooting and Codex/Claude handoff; custom transport, not an official Siemens MCP server.
+
 - [Fusion AI Interaction](docs/fusion-ai-interaction/README.md): copy-paste local AI prompt for installing, connecting, and validating Fusion MCP without mouse or keyboard automation.
 
 - Notion Project Hub (link shared privately with members): live team tasks, member information, blockers and record navigation.
