@@ -1,0 +1,25 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+*token*.json
+# Local work, caches and large originals
+work/
+__pycache__/
+.venv/
+node_modules/
+raw/
+*.mp4
+*.mov
+*.heic
+*.zip
+*.f3d
+*.f3z
+*.step
+*.stp
+# Add approved, small design exchange files explicitly after review.
+.DS_Store
+Thumbs.db
