@@ -56,6 +56,10 @@ Use the complete local guide. Selected implementation (changed October 21, 2026)
 
 No screenshots/screen reading, keyboard/mouse simulation, window activation, modal prompts or UI automation fallback. Inspect real tools/schemas and the active document before API operations. Never present mock results as a live connection. Desktop Fusion must be running with the MCP preference enabled; sign-in and enabling the preference are manual user steps. API work can still affect responsiveness.
 
+## NX workflow record (October 21, 2026)
+
+`docs/nx-ai-interaction/README.md` records the inspected local NXOpen bridge, failed bootstrap approach, reconnection, CAD verification lessons and a Codex/Claude handoff prompt. Portable sources are under `tools/nx-session-bridge/`; private runtime state and CAD remain excluded. NXOpen is official Siemens API; this project's transport is custom, not an official Siemens MCP server. A separate NXMCP/OpenNX installation and original NX installer process remain unverified. The documentation-session live check found a stale heartbeat, so current connection is NOT VERIFIED. The reproduction build helper compiled successfully against the installed NX assemblies; it was not loaded into NX during this documentation task. No CAD was changed, and no whole-assembly strength approval is established.
+
 ## Engineering baseline
 
 Current chamber dimensions, materials, hardware inventory, operating conditions, accepted performance requirements and measured results remain UNKNOWN until supported by project evidence. Historical AFMPDT documents are not automatically this project's approved baseline. Distinguish PROPOSED, NEEDS VERIFICATION and verified facts. Keep units, revisions, data/run provenance and uncertainty explicit.

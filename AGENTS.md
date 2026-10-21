@@ -18,7 +18,11 @@ Use Notion for current team tasks, progress and blockers; GitHub for durable tec
 
 Budget/manufacturing-method selection is not a standalone planning task. Flag conflicting historical wording rather than silently changing decisions. Do not send messages, publish publicly or invite people without authorization.
 
-## Fusion
+## NX
+
+For NX installation, connection, NXMCP/OpenNX questions or CAD requests, read `docs/nx-ai-interaction/README.md` and apply its handoff workflow. NXOpen is Siemens' official API; the bundled session bridge is custom and is not an MCP server. Do not invent an official endpoint or conflate NX with Fusion. Use code/API only, inspect live Work/Display Part before operations, preserve originals, and never blindly retry a timed-out mutation. Runtime files and prior examples are local-only; a checkout does not establish a live session.
+
+## Fusion Workflow
 
 Read `docs/fusion-ai-interaction/README.md` and actual tool schemas. Use code/API/MCP only: no screen reading, screenshots, simulated input, foreground takeover or GUI fallback. Verify live connection and intended document immediately before operations. Never use mock data, installation files or a listening port as proof of live modeling. Setup and training prompts run only when selected by the user's request.
 
