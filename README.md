@@ -16,6 +16,8 @@ The repository contains instructions and reusable prompts; it does not itself ru
 
 ## Start here
 
+- [Website build retrospective](docs/website-build/README.md): illustrated development process, representative prompts, release history and usage estimates.
+
 - [Fusion AI Interaction](docs/fusion-ai-interaction/README.md): copy-paste local AI prompt for installing, connecting, and validating Fusion MCP without mouse or keyboard automation.
 
 - Notion Project Hub (link shared privately with members): live team tasks, member information, blockers and record navigation.
